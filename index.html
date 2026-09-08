@@ -21,7 +21,7 @@ label{color:#a8a59b;font-size:13px;margin-left:12px}
 <div class="wrap"><table id="t"><thead><tr><th data-k="symbol">Symbol</th><th>Mint</th><th data-k="transfer_fee_bps">Transfer fee</th><th>Flags</th><th data-k="holders">Holders</th><th data-k="vol">24h volume</th><th>Source</th></tr></thead><tbody></tbody></table></div>
 </main>
 <script>
-let rows=[],sortK='pool_volume_24h',dir=-1;
+let rows=[],sortK='vol',dir=-1;
 const flagged=e=>e.transfer_fee_bps||e.permanent_delegate||e.pausable||e.transfer_hook;
 function render(){const q=document.getElementById('q').value.trim().toLowerCase();const only=document.getElementById('onlyFlagged').checked;
  const tb=document.querySelector('#t tbody');tb.innerHTML='';
