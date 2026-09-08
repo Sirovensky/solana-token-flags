@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solana token flags</title>
+<meta name="description" content="Daily list of Token-2022 transfer taxes and issuer controls for tokens in the top Meteora DLMM pools.">
+<style>
+body{margin:0;background:#0f1115;color:#e8e6df;font:15px/1.5 system-ui,sans-serif}main{max-width:1100px;margin:0 auto;padding:24px 16px}
+h1{font-size:22px;margin:0 0 6px}p{color:#a8a59b;margin:4px 0 14px}a{color:#e8a33c}
+table{width:100%;border-collapse:collapse;font-size:13.5px}th,td{text-align:left;padding:7px 6px;border-bottom:1px solid #262a33;vertical-align:top}th{color:#a8a59b;font-weight:500;cursor:pointer}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px}.tag{display:inline-block;border:1px solid #444;border-radius:6px;padding:0 6px;font-size:11.5px;margin-right:3px}
+.bad{color:#ff6b6b;border-color:#ff6b6b}.warn{color:#ffd166;border-color:#ffd166}.wrap{overflow-x:auto}input{background:#0b0d11;color:#e8e6df;border:1px solid #262a33;border-radius:8px;padding:8px 10px;font-size:14px;width:100%;max-width:420px}
+label{color:#a8a59b;font-size:13px;margin-left:12px}
+</style>
+</head>
+<body><main>
+<h1>Solana token flags</h1>
+<p id="meta">loading…</p>
+<p>Transfer taxes and issuer controls read from the mint account of every token in the top Meteora DLMM pools. A 3% transfer fee is paid on every deposit, withdrawal, swap and claim. Raw data: <a href="data/latest.json">latest.json</a> · <a href="https://github.com/Sirovensky/solana-token-flags">repo</a> · <a href="https://github.com/Sirovensky/dlmm-screen">dlmm-screen</a></p>
+<input id="q" placeholder="filter by symbol or mint"> <label><input type="checkbox" id="onlyFlagged" checked style="width:auto"> flagged only</label>
+<div class="wrap"><table id="t"><thead><tr><th data-k="symbol">Symbol</th><th>Mint</th><th data-k="transfer_fee_bps">Transfer fee</th><th>Flags</th><th data-k="holders">Holders</th><th data-k="pool_volume_24h">24h pool volume</th></tr></thead><tbody></tbody></table></div>
+</main>
+<script>
+let rows=[],sortK='pool_volume_24h',dir=-1;
+const flagged=e=>e.transfer_fee_bps||e.permanent_delegate||e.pausable||e.transfer_hook;
+function render(){const q=document.getElementById('q').value.trim().toLowerCase();const only=document.getElementById('onlyFlagged').checked;
+ const tb=document.querySelector('#t tbody');tb.innerHTML='';
+ rows.filter(r=>(!only||flagged(r))&&(!q||(r.symbol||'').toLowerCase().includes(q)||r.mint.toLowerCase().includes(q))).sort((a,b)=>((a[sortK]||0)>(b[sortK]||0)?1:-1)*dir).forEach(r=>{
+  const f=[];if(r.transfer_fee_bps)f.push(`<span class="tag bad">tax ${(r.transfer_fee_bps/100).toFixed(2)}%</span>`);if(r.permanent_delegate)f.push('<span class="tag bad">permanent delegate</span>');if(r.pausable)f.push('<span class="tag warn">pausable</span>');if(r.transfer_hook)f.push('<span class="tag warn">hook</span>');if(r.mint_authority)f.push('<span class="tag warn">mintable</span>');if(r.freeze_authority)f.push('<span class="tag warn">freezable</span>');
+  const tr=document.createElement('tr');tr.innerHTML=`<td><b>${(r.symbol||'').replace(/[<>&]/g,'')}</b> <span style="color:#a8a59b">${r.program==='token-2022'?'T22':'SPL'}</span></td><td class="mono"><a href="https://solscan.io/token/${r.mint}" target="_blank" rel="noopener">${r.mint}</a></td><td>${r.transfer_fee_bps?(r.transfer_fee_bps/100).toFixed(2)+'%':''}</td><td>${f.join('')||'<span class="tag">clean</span>'}</td><td>${(r.holders||0).toLocaleString()}</td><td>$${Math.round(r.pool_volume_24h||0).toLocaleString()}</td>`;tb.appendChild(tr);});}
+fetch('data/latest.json').then(r=>r.json()).then(d=>{rows=Object.entries(d.mints).map(([m,e])=>Object.assign({mint:m},e));document.getElementById('meta').textContent=`Generated ${d.generated_utc}. ${d.pools_scanned} pools, ${d.mints_scanned} mints, ${d.flagged_count} flagged.`;render();}).catch(e=>{document.getElementById('meta').textContent='failed to load data: '+e.message;});
+document.getElementById('q').oninput=render;document.getElementById('onlyFlagged').onchange=render;
+document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=sortK===k?-dir:-1;sortK=k;render();});
+</script>
+</body></html>
