@@ -56,6 +56,19 @@ def main():
             t = p[side]; m = t["address"]
             e = mints.setdefault(m, {"symbol": t.get("symbol"), "name": t.get("name"), "holders": t.get("holders"), "pools": [], "pool_volume_24h": 0.0})
             e["pools"].append(p["address"]); e["pool_volume_24h"] += float(p["volume"]["24h"] or 0)
+    # Whole-market coverage: Jupiter's top traded tokens (24h)
+    try:
+        top = requests.get("https://lite-api.jup.ag/tokens/v2/toptraded/24h", params={"limit": 200}, timeout=60).json()
+        for t in top:
+            st = t.get("stats24h") or {}
+            e = mints.setdefault(t["id"], {"symbol": t.get("symbol"), "name": t.get("name"), "holders": t.get("holderCount"), "pools": [], "pool_volume_24h": 0.0})
+            e["jup_volume_24h"] = float(st.get("buyVolume") or 0) + float(st.get("sellVolume") or 0)
+            e["source"] = sorted(set((e.get("source") or []) + ["jupiter_top_traded"]))
+    except Exception as ex:
+        print("jupiter top traded failed:", ex)
+    for m, e in mints.items():
+        if e["pools"]:
+            e["source"] = sorted(set((e.get("source") or []) + ["meteora_dlmm"]))
     addrs = list(mints)
     for i in range(0, len(addrs), 100):
         chunk = addrs[i:i + 100]
@@ -72,12 +85,12 @@ def main():
     os.makedirs(os.path.join(OUT, "history"), exist_ok=True)
     json.dump(out, open(os.path.join(OUT, "latest.json"), "w"), indent=0, sort_keys=True)
     json.dump({"generated_utc": out["generated_utc"], "flagged": flagged}, open(os.path.join(OUT, "history", today + ".json"), "w"), sort_keys=True)
-    rows = sorted(flagged.items(), key=lambda kv: -kv[1]["pool_volume_24h"])
+    rows = sorted(flagged.items(), key=lambda kv: -(kv[1]["pool_volume_24h"] + kv[1].get("jup_volume_24h", 0)))
     with open(os.path.join(OUT, "latest.md"), "w") as f:
-        f.write(f"# Flagged tokens in top Meteora DLMM pools — {today}\n\n{len(pools)} pools scanned (TVL ≥ $20k, by 24h volume), {len(mints)} distinct mints, **{len(flagged)} flagged**.\n\n")
-        f.write("| symbol | mint | transfer fee | permanent delegate | pausable | hook | mint auth | freeze auth | 24h pool volume |\n|---|---|---|---|---|---|---|---|---|\n")
+        f.write(f"# Flagged tokens — {today}\n\n{len(pools)} Meteora DLMM pools (TVL ≥ $20k) plus Jupiter's 200 top-traded tokens: {len(mints)} distinct mints, **{len(flagged)} flagged**.\n\n")
+        f.write("| symbol | mint | transfer fee | permanent delegate | pausable | hook | mint auth | freeze auth | 24h volume (DLMM + Jupiter) | source |\n|---|---|---|---|---|---|---|---|---|---|\n")
         for m, e in rows:
-            f.write(f"| {e.get('symbol') or ''} | `{m}` | {e.get('transfer_fee_bps', 0) / 100:.2f}% | {'yes' if e.get('permanent_delegate') else ''} | {'yes' if e.get('pausable') else ''} | {'yes' if e.get('transfer_hook') else ''} | {'live' if e.get('mint_authority') else ''} | {'live' if e.get('freeze_authority') else ''} | ${e['pool_volume_24h']:,.0f} |\n")
+            f.write(f"| {e.get('symbol') or ''} | `{m}` | {e.get('transfer_fee_bps', 0) / 100:.2f}% | {'yes' if e.get('permanent_delegate') else ''} | {'yes' if e.get('pausable') else ''} | {'yes' if e.get('transfer_hook') else ''} | {'live' if e.get('mint_authority') else ''} | {'live' if e.get('freeze_authority') else ''} | ${e['pool_volume_24h'] + e.get('jup_volume_24h', 0):,.0f} | {', '.join(e.get('source') or [])} |\n")
     print(f"pools {len(pools)} mints {len(mints)} flagged {len(flagged)}")
 
 
