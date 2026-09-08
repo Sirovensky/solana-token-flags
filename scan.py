@@ -91,6 +91,20 @@ def main():
         f.write("| symbol | mint | transfer fee | permanent delegate | pausable | hook | mint auth | freeze auth | 24h volume (DLMM + Jupiter) | source |\n|---|---|---|---|---|---|---|---|---|---|\n")
         for m, e in rows:
             f.write(f"| {e.get('symbol') or ''} | `{m}` | {e.get('transfer_fee_bps', 0) / 100:.2f}% | {'yes' if e.get('permanent_delegate') else ''} | {'yes' if e.get('pausable') else ''} | {'yes' if e.get('transfer_hook') else ''} | {'live' if e.get('mint_authority') else ''} | {'live' if e.get('freeze_authority') else ''} | ${e['pool_volume_24h'] + e.get('jup_volume_24h', 0):,.0f} | {', '.join(e.get('source') or [])} |\n")
+    # Day-over-day changes: newly flagged and no-longer-listed mints
+    hist = sorted(f for f in os.listdir(os.path.join(OUT, "history")) if f.endswith(".json") and f[:-5] != today)
+    if hist:
+        prev = json.load(open(os.path.join(OUT, "history", hist[-1])))["flagged"]
+        new = {m: e for m, e in flagged.items() if m not in prev}
+        gone = {m: e for m, e in prev.items() if m not in flagged}
+        with open(os.path.join(OUT, "changes.md"), "w") as f:
+            f.write(f"# Changes {hist[-1][:-5]} → {today}\n\n**{len(new)} newly flagged**, {len(gone)} dropped out of the scanned set.\n\n")
+            for title, group in (("Newly flagged", new), ("Dropped", gone)):
+                f.write(f"## {title}\n\n")
+                for m, e in sorted(group.items(), key=lambda kv: -(kv[1].get("pool_volume_24h", 0) + kv[1].get("jup_volume_24h", 0))):
+                    tags = [t for t, ok in (("tax %.2f%%" % (e.get("transfer_fee_bps", 0) / 100), e.get("transfer_fee_bps")), ("permanent delegate", e.get("permanent_delegate")), ("pausable", e.get("pausable")), ("hook", e.get("transfer_hook"))) if ok]
+                    f.write(f"- {e.get('symbol') or ''} `{m}` — {', '.join(tags)}\n")
+                f.write("\n")
     print(f"pools {len(pools)} mints {len(mints)} flagged {len(flagged)}")
 
 

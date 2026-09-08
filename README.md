@@ -8,7 +8,8 @@ Why: a 3% transfer tax is paid on every deposit, withdrawal, swap and fee claim.
 
 1. `data/latest.md` — human table, flagged tokens only, sorted by 24h pool volume.
 2. `data/latest.json` — every mint seen in the scanned pools with all fields, flagged or not.
-3. `data/history/YYYY-MM-DD.json` — flagged set per day, for tracking new listings.
+3. `data/history/YYYY-MM-DD.json` — flagged set per day.
+4. `data/changes.md` — what got newly flagged since the previous scan, and what dropped out (from day two on).
 
 Raw URL for bots: `https://raw.githubusercontent.com/Sirovensky/solana-token-flags/main/data/latest.json`
 
