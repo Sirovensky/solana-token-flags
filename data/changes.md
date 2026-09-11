@@ -1,34 +1,37 @@
-# Changes 2026-09-09 → 2026-09-10
+# Changes 2026-09-10 → 2026-09-11
 
-**12 newly flagged**, 12 dropped out of the scanned set.
+**19 newly flagged**, 8 dropped out of the scanned set.
 
 ## Newly flagged
 
-- ZDOG `FfFEszstujrteEmNK1SzS7CXyWiuiKUKjrRLov7eLtQ3` — tax 1.00%
-- PENIS `JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z` — tax 3.00%
-- HTZ `HTZsLG4zqaNvWMwXSLHH3GG5KyJpKwpBRsKVdMG6hvzP` — permanent delegate, pausable
-- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
-- GMEx `Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc` — permanent delegate, pausable
-- 🧲 `9LAcK5XfutibvzXAqNMjVCL5FRuSTv2TVNxnLK5QExUt` — tax 1.00%
-- DJT `DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF` — permanent delegate, pausable
-- SHOP `SH55hfaipFAbwT42nQYhRoM5o5t61QpkmJ6p62vXB3m` — permanent delegate, pausable
-- GOOGLx `XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN` — permanent delegate, pausable
-- BITCAT `2bDQvnvwd7rNbm4o3JNdN6z9c7MVzp4yqHJPNXPiSTNK` — tax 3.00%
-- SLAWTH `5ZfFmbHzXuhw17e73NGZSHwiyULmybb4azTXCH4U8sDw` — tax 3.00%
-- RAYCAT `CFNRDaxFcvRwRSNnA5cHrCCr6AHhk9dNkHWpRUjNupFL` — tax 3.00%
+- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
+- LOOP `HunmXDXMNQYVoDnUL6PNnSYEtFaTZA2WzGh1HJTW7aoV` — tax 3.00%
+- DNUT `DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk` — permanent delegate, pausable
+- MGM `MGMuubtUEirmkhfEQdmGUh4pr7HuUdMWcZXFtpPbVJD` — permanent delegate, pausable
+- GAY `41WU7d3EzacMHkpgHNnF7eG9aXjvbPqASXVLpGqkoTpa` — tax 1.00%
+- SNDK `SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH` — permanent delegate, pausable
+- STONKCAT `DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS` — tax 3.00%
+- TTWO `TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo` — permanent delegate, pausable
+- LULU `LULUmT9VMttkfAJE236LXJcYJ2tTP7nunrSWR5G1BdS` — permanent delegate, pausable
+- GAYCOIN `CNhrRe6Td3727YjN5MfxcXEAPTJ4odzLu3VUdyBz3AQr` — tax 3.00%
+- METH `6CsmCtDAhRcbp3G4KiinKC2JjLJ9BpR7isqcgZefqLym` — tax 3.00%
+- RICH `6dBrKbJdAzkwJvkWEWTJb3iWY7aNbrZKLsrKUCnXxWsM` — tax 1.00%
+- ROCK `7LxC96Ag4DnBotK6bMMUj4kdneAo1kdV1xHnzVF5s7W2` — tax 3.00%
+- GLAZE `7gYKUXFqbshpydGN6EQyMHUkeigak2J9MbfKCKyTWH73` — tax 1.00%
+- STONKAT `DtUntDyWcRpzTVt8JiW8fXvUt3WDGGw6kdiD7fjNMFzJ` — tax 3.00%
+- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
+- Helium `CK82iGhXrKinaBXYGRKds3ZE6NYLFjvVnfAQvu3gwDAu` — tax 1.00%
+- LEVERHEDGE `8VsFryV6n8tNfU49L1GmaDp9LU1ubz6DbgjqKBMF3G3G` — tax 3.00%
+- TREE `8xH8ikqGXNTSYmmUVakCE2tVwU7aYJwz2JZkqAjW88sG` — tax 3.00%
 
 ## Dropped
 
-- MAXI `4xSfWrG9VkyNbnCNvB6opKEex2ebXmCZCiied84fZisB` — tax 3.00%
-- METAx `Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu` — permanent delegate, pausable
-- SPHR `SPHRp8cZaSQBTp1KMNP4V1X821SXhXWt4Q2yLdyHzju` — permanent delegate, pausable
-- VIDAx `XsfCC9VL4DamVGNgdJpfLXB3sBVa158Gbx8sh7NzmTk` — permanent delegate, pausable
-- 2Z `6VZeAen9vxRYNMpCJ5SrS9qjeE2JeYoeufunFrHrdT7w` — tax 1.00%
-- BRK.Bx `Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x` — permanent delegate, pausable
-- STRCx `Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH` — permanent delegate, pausable
-- SNDK `SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH` — permanent delegate, pausable
-- MUCHWOW `GLRyB95LzCyyY8TVfwZVDyrVcZuSJPJJoaPTnyWs89mv` — tax 3.00%
-- RUNNER `6UymExPNxsyZwWzaPVvgjWy315yjSSupB8CKFbyjUEp3` — tax 1.00%
-- MUSE `AUZrzyaejPs4zqGQ7xpPrSz9qs2rq4WhvtKANXvaWupT` — tax 1.00%
-- AMZNx `Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg` — permanent delegate, pausable
+- ZDOG `FfFEszstujrteEmNK1SzS7CXyWiuiKUKjrRLov7eLtQ3` — tax 1.00%
+- HTZ `HTZsLG4zqaNvWMwXSLHH3GG5KyJpKwpBRsKVdMG6hvzP` — permanent delegate, pausable
+- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
+- SHOP `SH55hfaipFAbwT42nQYhRoM5o5t61QpkmJ6p62vXB3m` — permanent delegate, pausable
+- NKE `NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg` — permanent delegate, pausable
+- AMC `AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc` — permanent delegate, pausable
+- tip `Fhxcx7cHmhDkfwziHyCwN8vQRvEFRK3zezokaE8gL5q7` — tax 1.00%
+- SLAWTH `5ZfFmbHzXuhw17e73NGZSHwiyULmybb4azTXCH4U8sDw` — tax 3.00%
 
