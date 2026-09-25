@@ -1,42 +1,35 @@
-# Changes 2026-09-23 → 2026-09-24
+# Changes 2026-09-24 → 2026-09-25
 
-**15 newly flagged**, 17 dropped out of the scanned set.
+**14 newly flagged**, 11 dropped out of the scanned set.
 
 ## Newly flagged
 
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- CRWV `CRWVJeR2yEZuDUKYfGuKCHvLz8ywn4LGvovHfy5WiFmi` — permanent delegate, pausable
-- HYPERCAT `7Qy2cXpdj4Fu2DUPVWdN3oogM3JSwLUV2LZaKVgVcPZh` — tax 3.00%
-- SCHLONG `HhXe2PbtXQHzZ5Ch46MBXf7rEbMgnYsCGaEhktyKGZNT` — tax 3.00%
-- MASK `HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7` — tax 3.00%
-- GOOGLx `XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN` — permanent delegate, pausable
-- HOODx `XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg` — permanent delegate, pausable
-- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
-- LEVERHYPPO `2Ghxme9RXa2vatoRPGnQgNKCXNZy2N3X7PbH4kzxHYPE` — tax 3.00%
-- GAYMF `74sHNXtVDHZVw4ADktjGFHPzNycV8iHvfHLPp6QZPdT4` — tax 1.00%
-- TTWO `TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo` — permanent delegate, pausable
-- DUEL `CASs9vMniGPtsnnKrV9uziBHA7JU5dS9MQY15WsRqVfx` — tax 3.00%
-- BLUE `6gxc6ZWCMA2XzwWFGD9CKFHe8UMBmPxdKDHC1w3HfzDw` — tax 3.00%
-- JIRACHI `HMD6LV9hj6SdSKF4oTd7dYTVUhVL8MzYvPZYgb7BQSrW` — tax 1.00%
-- NVDA `NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv` — permanent delegate, pausable
+- NVDAon `gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo` — pausable
+- IREN `RENzhrJQgmAnfcLhU1U5XwAMc6TC15UA6jCbPBaasnj` — permanent delegate, pausable
+- sUSDai `sUSDai6Y3GxysDEtA9BVcEFTaog6UZpYUVxJiMhAKYE` — permanent delegate, pausable
+- SNDK `SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH` — permanent delegate, pausable
+- MACCA `6YqakuvZZ26Svz5SGtCV4yWymwyp1NM4M1DgBX7svRpC` — tax 1.00%
+- JOLLY `AouqdqhCsKb1x5Ngw5PktSonaWnxb9UiBF3QzBdvtMH` — tax 1.00%
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
+- CYPH `CYPHuMmCL1GxJWa2tsPhLKykC7GrHJTCHwbXD4g5uawK` — permanent delegate, pausable
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
+- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
+- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
+- DRAM `DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw` — permanent delegate, pausable
+-  `7SckFP8Qh9Twahv516tdQXV62QnztW4Mccy5DX5YVBPg` — hook
 
 ## Dropped
 
-- IONQ `NQ5hSuXQZrbnrwcDVk2qN73njjd3E3v3badYHnj5thF` — permanent delegate, pausable
-- SOL `FmoHrCkQpFWfMCrQArbEtuFgy7MwZvb4HPzTD3XDsrdE` — tax 1.00%
-- APED `FiyPnPU7nPgx73A94pntqUPhyfBPhMM54u25DWMzTwkH` — tax 1.00%
-- suit `AVXPQqxd32ABAP5F7shHKNeWBpos9miktdH3uKqgXYJZ` — tax 1.00%
-- CYPH `CYPHuMmCL1GxJWa2tsPhLKykC7GrHJTCHwbXD4g5uawK` — permanent delegate, pausable
-- APE `HdQVNvj2v31JfvLqL6PKeUDnLwJv5KkaKphR1KfkGjou` — tax 3.00%
-- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
-- BOP `527PdUTGwcFxVEMXt8tyRJA1nYbVedgSiSfh4s2LWTWz` — tax 3.00%
-- QUEEF `4UHmZGe6X4DZ5dxYGiGXMhi3Sp34uPWtHB7qDMyvRbYB` — tax 3.00%
-- AMZNx `Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg` — permanent delegate, pausable
-- LinkedInu `FvhorDts9M8uJekzs3pBcYUPUjWtCTrGLhdv3ADHyeRY` — tax 1.00%
-- TACZ `3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj` — tax 3.00%
-- JUPCAT `AaEhFTX4naHSWSXz9TVe5QgLbtSLT8ZqYJGZzDDcoroh` — tax 3.00%
-- CYPHERCAT `6AUURRdHb9TrfPHv9AMofa8NEVoZDXcsbWKcUBpFSRXs` — tax 3.00%
-- JubJub `7tFbGa9wt4Q4yxNAdaDcTKahv4WPrJtXh6ty7gjWyKx3` — tax 1.00%
-- GPRO `GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH` — permanent delegate, pausable
--  `7SckFP8Qh9Twahv516tdQXV62QnztW4Mccy5DX5YVBPg` — hook
+- CRWV `CRWVJeR2yEZuDUKYfGuKCHvLz8ywn4LGvovHfy5WiFmi` — permanent delegate, pausable
+- HYPERCAT `7Qy2cXpdj4Fu2DUPVWdN3oogM3JSwLUV2LZaKVgVcPZh` — tax 3.00%
+- SCHLONG `HhXe2PbtXQHzZ5Ch46MBXf7rEbMgnYsCGaEhktyKGZNT` — tax 3.00%
+- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
+- RUNUP `runupS9JpTdB169taDKykxa2y8fqxghqeJYCqr9cAk3` — tax 1.00%
+- LEVERHYPPO `2Ghxme9RXa2vatoRPGnQgNKCXNZy2N3X7PbH4kzxHYPE` — tax 3.00%
+- GAYMF `74sHNXtVDHZVw4ADktjGFHPzNycV8iHvfHLPp6QZPdT4` — tax 1.00%
+- wifout `6JrR1iqPdinYTNvNPWTR2P7e2wSJ1rwdsrKGyhnzjUVr` — tax 1.00%
+- BLUE `6gxc6ZWCMA2XzwWFGD9CKFHe8UMBmPxdKDHC1w3HfzDw` — tax 3.00%
+- JIRACHI `HMD6LV9hj6SdSKF4oTd7dYTVUhVL8MzYvPZYgb7BQSrW` — tax 1.00%
+- USEFUL `GWTP6M5bxhaJ1k2Kxvf8hhYaHE6jZMhh4cKzFuCpnc83` — tax 1.00%
 
