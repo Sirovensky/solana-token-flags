@@ -1,32 +1,25 @@
-# Changes 2026-09-25 → 2026-09-26
+# Changes 2026-09-26 → 2026-09-27
 
-**4 newly flagged**, 18 dropped out of the scanned set.
+**9 newly flagged**, 6 dropped out of the scanned set.
 
 ## Newly flagged
 
-- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
-- BRICK `F9PvspnWkP3hSLaYxQb2LvFRBgyrLVhdUJ5q39tZZPbC` — tax 1.00%
-- BackCat `ATqKVVa4h5WqjAMqJdG3mjtWXsW5SshyyUY7dXdvSvRs` — tax 1.00%
-- FIGUREAI `PreZad18qfPtbxNpMtMuAuX2zVpvkEU8DnJx56faCWd` — tax 3.00%, permanent delegate, pausable
+- EWY `EWY4owSJYMpwN33qGDu5gGxpkQkpMJu8ZUsQJaNZG5dv` — permanent delegate, pausable
+- o `2bX5CKZ7SHvacmMQFq7nBjQMmpPFbCZkpA7367du9Wa2` — tax 1.00%
+- SNDK `8t5C4AWDg4CroMChxdo7rG2e8nJM31QG2GG7Czx9X7x2` — tax 3.00%
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- froges `G4PF5viRAdYCA3QLf3g81J7NoWyMWoyZxMLJ52f4xon7` — tax 1.00%
+-  `9GTFD2DHo1KHd73smcpJtdTEvA6C5zzXxoWzjnb51c8` — tax 2.00%
+- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
+- Sift `9AdPA9ZeY8rEvSBvoL2KuWrz2LQQ7zNDNkY8Jegrtg8d` — tax 1.00%
+- GRAMS `G1jonmoSEbMJSwEg1AmgDAJq2utmuBSZct8oqttBf9rT` — tax 3.00%
 
 ## Dropped
 
-- NVDAon `gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo` — pausable
-- TTWO `TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo` — permanent delegate, pausable
-- IREN `RENzhrJQgmAnfcLhU1U5XwAMc6TC15UA6jCbPBaasnj` — permanent delegate, pausable
-- GOOGLx `XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN` — permanent delegate, pausable
-- CRACKER `4rkGWJNSUPBcMicXMRAzohEyeJLFG8gUjwiWaz7Pddr3` — tax 3.00%
-- QQQx `Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ` — permanent delegate, pausable
-- MACCA `6YqakuvZZ26Svz5SGtCV4yWymwyp1NM4M1DgBX7svRpC` — tax 1.00%
-- JOLLY `AouqdqhCsKb1x5Ngw5PktSonaWnxb9UiBF3QzBdvtMH` — tax 1.00%
-- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
-- HOODx `XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg` — permanent delegate, pausable
-- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
-- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
-- DRAM `DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw` — permanent delegate, pausable
-- DUEL `CASs9vMniGPtsnnKrV9uziBHA7JU5dS9MQY15WsRqVfx` — tax 3.00%
-- BUTT `2pouN3by7twkiZGy5aEKYUpf78ALDpKRTNu2WsQkpkqt` — tax 3.00%
-- KOx `XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ` — permanent delegate, pausable
+- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
+- CRCLx `XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1` — permanent delegate, pausable
+- TSLAx `XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB` — permanent delegate, pausable
+- BRICK `F9PvspnWkP3hSLaYxQb2LvFRBgyrLVhdUJ5q39tZZPbC` — tax 1.00%
+- MSTRx `XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ` — permanent delegate, pausable
+- BackCat `ATqKVVa4h5WqjAMqJdG3mjtWXsW5SshyyUY7dXdvSvRs` — tax 1.00%
 
