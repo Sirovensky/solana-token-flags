@@ -1,21 +1,23 @@
-# Changes 2026-10-12 → 2026-10-13
+# Changes 2026-10-13 → 2026-10-14
 
-**5 newly flagged**, 6 dropped out of the scanned set.
+**4 newly flagged**, 9 dropped out of the scanned set.
 
 ## Newly flagged
 
-- AVGOx `XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo` — permanent delegate, pausable
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
-- QQQx `Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ` — permanent delegate, pausable
-- MGM `MGMuubtUEirmkhfEQdmGUh4pr7HuUdMWcZXFtpPbVJD` — permanent delegate, pausable
+- CMG `CMGi497VQA9RiHVWpQi5B847vN8RLaEwcMhB5kEUhkAQ` — permanent delegate, pausable
+- TSM `TSM2Hiuf7Z9REcwZFQvsBEekBYCYziWBABfFnj6V6gQ` — permanent delegate, pausable
+- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
+- IBM `BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk` — permanent delegate, pausable
 
 ## Dropped
 
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- USDv `USDvUSpnhCr9yBgj3UyVrD239HRUv4RsHwH2FxsWuMk` — permanent delegate, pausable
-- EWY `EWY4owSJYMpwN33qGDu5gGxpkQkpMJu8ZUsQJaNZG5dv` — permanent delegate, pausable
-- SECRETFROG `85Mo19cmRzg89Vz1niSw7jRZtrtfvCrkEwFSW1CBaQcg` — tax 3.00%
-- NINJACAT `9CPfv7rc6vxBd3jtovmZtf5Zy8bdvssv8c4BwzbGk147` — tax 1.00%
-- STONKINU `6XhzSy3VTTkwqMUSQsStM3ncGy6ozcPnzLVmv4HZ64cC` — tax 3.00%
+- AVGOx `XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo` — permanent delegate, pausable
+- MSFTx `XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX` — permanent delegate, pausable
+- RIOT `RUKx7nBgm94pwRPbVm99xYVdcTDTUyGs8Cw3VSYQXHf` — permanent delegate, pausable
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
+- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
+- RACE `RACEyWiM2ztEZcJx2AHXU2eWjhxU57x3vXn92b39dLD` — permanent delegate, pausable
+- MGM `MGMuubtUEirmkhfEQdmGUh4pr7HuUdMWcZXFtpPbVJD` — permanent delegate, pausable
+- SWOLF `HwJyyniKKDRLXxjRSzyLtpvxzqecqrhrbcSbKRm7STNK` — tax 1.00%
+- OURA `Pre9atBqkocK1QngFy7Q7zvyQictEFpXdLi6bZ2qnYy` — tax 1.00%, permanent delegate, pausable
 
