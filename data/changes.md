@@ -1,23 +1,25 @@
-# Changes 2026-10-13 → 2026-10-14
+# Changes 2026-10-14 → 2026-10-15
 
-**4 newly flagged**, 9 dropped out of the scanned set.
+**9 newly flagged**, 6 dropped out of the scanned set.
 
 ## Newly flagged
 
-- CMG `CMGi497VQA9RiHVWpQi5B847vN8RLaEwcMhB5kEUhkAQ` — permanent delegate, pausable
-- TSM `TSM2Hiuf7Z9REcwZFQvsBEekBYCYziWBABfFnj6V6gQ` — permanent delegate, pausable
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- IBM `BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk` — permanent delegate, pausable
+- sUSDai `sUSDai6Y3GxysDEtA9BVcEFTaog6UZpYUVxJiMhAKYE` — permanent delegate, pausable
+- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
+- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
+- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
+- MSFTx `XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX` — permanent delegate, pausable
+- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
+- AVGO `AVGoo4BQGsEfAmu4HU2deZTaTmLoqB3q3EzKXqAANGYD` — permanent delegate, pausable
+- LLY `LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD` — permanent delegate, pausable
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
 
 ## Dropped
 
-- AVGOx `XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo` — permanent delegate, pausable
-- MSFTx `XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX` — permanent delegate, pausable
-- RIOT `RUKx7nBgm94pwRPbVm99xYVdcTDTUyGs8Cw3VSYQXHf` — permanent delegate, pausable
-- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- RACE `RACEyWiM2ztEZcJx2AHXU2eWjhxU57x3vXn92b39dLD` — permanent delegate, pausable
-- MGM `MGMuubtUEirmkhfEQdmGUh4pr7HuUdMWcZXFtpPbVJD` — permanent delegate, pausable
-- SWOLF `HwJyyniKKDRLXxjRSzyLtpvxzqecqrhrbcSbKRm7STNK` — tax 1.00%
-- OURA `Pre9atBqkocK1QngFy7Q7zvyQictEFpXdLi6bZ2qnYy` — tax 1.00%, permanent delegate, pausable
+- CMG `CMGi497VQA9RiHVWpQi5B847vN8RLaEwcMhB5kEUhkAQ` — permanent delegate, pausable
+- TSM `TSM2Hiuf7Z9REcwZFQvsBEekBYCYziWBABfFnj6V6gQ` — permanent delegate, pausable
+- GMEx `Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc` — permanent delegate, pausable
+- IBM `BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk` — permanent delegate, pausable
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- 🎒 `ZesMGYmokFiEuDvNzWeMhB7jxF6eUW8c512vwSKSTNK` — tax 1.00%
 
