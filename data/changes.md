@@ -1,17 +1,16 @@
-# Changes 2026-10-21 → 2026-10-22
+# Changes 2026-10-22 → 2026-10-23
 
-**4 newly flagged**, 3 dropped out of the scanned set.
+**5 newly flagged**, 1 dropped out of the scanned set.
 
 ## Newly flagged
 
-- META `METAaH6MMZZgy2CTEJq3QdNi7AFVTV3NxHFBfFgLEDd` — permanent delegate, pausable
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
-- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
+- AMZN `AMZNw7cwU9L9c7ewZXxTws2PwQYxBGm2Rxg3FLDBJz9B` — permanent delegate, pausable
+- Kimchi `GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK` — tax 1.00%
+- MRNA `MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT` — permanent delegate, pausable
+- MEMEMAN `79hQSeQtMsVLFH8vCT8LysFnJDqiwSxQyTA7cMVgyaHB` — tax 1.00%
+- MONEROCHAN `39HqgQ18g9R33sUfKq1TjX4sbKrgTb4YntnBCFhURJvy` — tax 3.00%
 
 ## Dropped
 
-- SNAP `SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz` — permanent delegate, pausable
-- RACE `RACEyWiM2ztEZcJx2AHXU2eWjhxU57x3vXn92b39dLD` — permanent delegate, pausable
-- TRUMP `BYGTxwRrzMvnQov8RHfG451ruaySvBUjEWJwU74L3Lc1` — tax 3.00%
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
 
