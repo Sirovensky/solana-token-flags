@@ -1,22 +1,25 @@
-# Changes 2026-10-30 → 2026-10-31
+# Changes 2026-10-31 → 2026-11-01
 
-**9 newly flagged**, 3 dropped out of the scanned set.
+**3 newly flagged**, 12 dropped out of the scanned set.
 
 ## Newly flagged
 
-- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
-- STRCx `Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH` — permanent delegate, pausable
-- LLY `LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD` — permanent delegate, pausable
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
--  `peV9vtCTYauAHPmxmcyGM36U5JAhwPupNfsvPaLDe8U` — tax 0.50%
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
-- MSTR `MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz` — permanent delegate, pausable
+- NKE `NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg` — permanent delegate, pausable
+- DRAM `DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw` — permanent delegate, pausable
+- WOW `72yxYmhLgDGwdyi2b9GjDynBB6VuG3kDxNKqDbzXh5bi` — tax 3.00%
 
 ## Dropped
 
-- ICE `CEQnejxG1FPzMS6UiLbcxNiMKrZM3x6GTZucpJoSeByy` — permanent delegate, pausable
-- INTCx `XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM` — permanent delegate, pausable
-- AMZNx `Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg` — permanent delegate, pausable
+- GMEx `Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc` — permanent delegate, pausable
+- STRCx `Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH` — permanent delegate, pausable
+- QQQx `Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ` — permanent delegate, pausable
+- LLY `LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD` — permanent delegate, pausable
+- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
+-  `peV9vtCTYauAHPmxmcyGM36U5JAhwPupNfsvPaLDe8U` — tax 0.50%
+- INTC `iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF` — permanent delegate, pausable
+- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
+- MSTR `MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz` — permanent delegate, pausable
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
+- WEN `WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ` — permanent delegate, pausable
+- GP `HTmQz7My6MehV7bjhJ6jde8nDND1yvsz68d24LP7YgUQ` — tax 3.00%
 
