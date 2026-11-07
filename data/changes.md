@@ -1,23 +1,26 @@
-# Changes 2026-11-05 → 2026-11-06
+# Changes 2026-11-06 → 2026-11-07
 
-**8 newly flagged**, 5 dropped out of the scanned set.
+**6 newly flagged**, 10 dropped out of the scanned set.
 
 ## Newly flagged
 
-- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
-- MCDx `XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2` — permanent delegate, pausable
-- DNUT `DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk` — permanent delegate, pausable
-- STRCx `Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH` — permanent delegate, pausable
-- SPY `SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi` — permanent delegate, pausable
-- META `METAaH6MMZZgy2CTEJq3QdNi7AFVTV3NxHFBfFgLEDd` — permanent delegate, pausable
-- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
-- INTC `iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF` — permanent delegate, pausable
+-  `DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn` — tax 0.50%
+- MNST `MNSTy46haEN7sEaeXAWBXG6zHaRikCvqf3krAEDzxr2` — permanent delegate, pausable
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- ZCATS `CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq` — tax 1.00%
+- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
+- CYPH `CYPHuMmCL1GxJWa2tsPhLKykC7GrHJTCHwbXD4g5uawK` — permanent delegate, pausable
 
 ## Dropped
 
-- WEN `WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ` — permanent delegate, pausable
-- AMC `AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc` — permanent delegate, pausable
-- AAPL `AAPLEDt8RpzPgXyhvFzkMBofvFSQw9gpeMCoUdPdLnB8` — permanent delegate, pausable
-- STONKS `22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K` — tax 1.00%
-- ALLINU `4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8` — tax 1.00%
+- STRCx `Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH` — permanent delegate, pausable
+- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
+- NVDA `NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv` — permanent delegate, pausable
+- MSTR `MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz` — permanent delegate, pausable
+- SPY `SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi` — permanent delegate, pausable
+- META `METAaH6MMZZgy2CTEJq3QdNi7AFVTV3NxHFBfFgLEDd` — permanent delegate, pausable
+- AMZNx `Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg` — permanent delegate, pausable
+- COINx `Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu` — permanent delegate, pausable
+- INTC `iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF` — permanent delegate, pausable
+- NEURALINK `PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S` — tax 1.00%, permanent delegate, pausable
 
