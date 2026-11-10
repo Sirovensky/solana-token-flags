@@ -1,22 +1,20 @@
-# Changes 2026-11-08 → 2026-11-09
+# Changes 2026-11-09 → 2026-11-10
 
-**11 newly flagged**, 1 dropped out of the scanned set.
+**4 newly flagged**, 6 dropped out of the scanned set.
 
 ## Newly flagged
 
-- NVDA `NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv` — permanent delegate, pausable
-- CRCLx `XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1` — permanent delegate, pausable
-- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
-- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
-- MSTRx `XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ` — permanent delegate, pausable
-- PAXG `5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW` — permanent delegate
-- SPY `SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi` — permanent delegate, pausable
-- MSFTx `XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX` — permanent delegate, pausable
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
-- SANTA `3c7mmVSyEH8jfZXgxvpLsETtko1Y16DyRJ5XYB4snhGt` — tax 3.00%
+- POLYMARKET `Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP` — tax 1.00%, permanent delegate, pausable
+- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
 
 ## Dropped
 
-- GRND `GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2` — permanent delegate, pausable
+- EUROP `euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA` — permanent delegate, pausable
+- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
+- SPY `SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi` — permanent delegate, pausable
+-  `DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn` — tax 0.50%
+- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
+- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
 
