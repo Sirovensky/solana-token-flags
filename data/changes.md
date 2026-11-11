@@ -1,20 +1,21 @@
-# Changes 2026-11-09 → 2026-11-10
+# Changes 2026-11-10 → 2026-11-11
 
-**4 newly flagged**, 6 dropped out of the scanned set.
+**6 newly flagged**, 5 dropped out of the scanned set.
 
 ## Newly flagged
 
-- POLYMARKET `Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP` — tax 1.00%, permanent delegate, pausable
-- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
-- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
+- OPNW `oPNWKYTYJyEs2RbpjUXfCTxrNtiTjTcz3ipvUvBBAH2` — permanent delegate, pausable
+-  `DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn` — tax 0.50%
+-  `5kop9u6Dg5iSmJ3qBnL3SsazBZkcAY3nw3wJrAq4h2gK` — tax 0.50%
+- AMC `AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc` — permanent delegate, pausable
+- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
+- QQQ `QQQvDYxG7g11Rr4rnaJqDddmP9ocH74YhE3mDaG37R9` — permanent delegate, pausable
 
 ## Dropped
 
-- EUROP `euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA` — permanent delegate, pausable
-- SQQQ `SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE` — permanent delegate, pausable
-- SPY `SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi` — permanent delegate, pausable
--  `DGuudmnJZ6yeFJTQEM1FgFeWB7dz2mo8sqjRqDWDfhLn` — tax 0.50%
-- BABA `BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp` — permanent delegate, pausable
-- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
+- PTN `PTNzAfFAB4LvoUQEUUGrFMyUoRLExMYjH6CcfyQfsVP` — permanent delegate, pausable
+- RBLX `RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE` — permanent delegate, pausable
+- DKNG `DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow` — permanent delegate, pausable
+- SNDK `SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH` — permanent delegate, pausable
+- KNOTS `8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS` — tax 3.00%
 
