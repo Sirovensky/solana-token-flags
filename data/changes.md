@@ -1,17 +1,18 @@
-# Changes 2026-11-23 → 2026-11-24
+# Changes 2026-11-24 → 2026-11-25
 
-**4 newly flagged**, 3 dropped out of the scanned set.
+**2 newly flagged**, 6 dropped out of the scanned set.
 
 ## Newly flagged
 
-- OPNW `oPNWKYTYJyEs2RbpjUXfCTxrNtiTjTcz3ipvUvBBAH2` — permanent delegate, pausable
-- USDGO `72puLt71H93Z9CzHuBRTwFpL4TG3WZUhnoCC7p8gxigu` — permanent delegate, pausable
-- MCDx `XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2` — permanent delegate, pausable
-- sUSDai `sUSDai6Y3GxysDEtA9BVcEFTaog6UZpYUVxJiMhAKYE` — permanent delegate, pausable
+- GMEx `Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc` — permanent delegate, pausable
+- RDDT `RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh` — permanent delegate, pausable
 
 ## Dropped
 
-- HIMS `HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx` — permanent delegate, pausable
-- MRNA `MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT` — permanent delegate, pausable
-- BOT `BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T` — permanent delegate, pausable
+- OPNW `oPNWKYTYJyEs2RbpjUXfCTxrNtiTjTcz3ipvUvBBAH2` — permanent delegate, pausable
+- EUROP `euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA` — permanent delegate, pausable
+- AMZNx `Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg` — permanent delegate, pausable
+- AMD `AMD8XwJXgQ9WV45Wyj9yFLejxzf2J6VM1PJY8bJEjeES` — permanent delegate, pausable
+- AAPLx `XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp` — permanent delegate, pausable
+- SNDK `SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH` — permanent delegate, pausable
 
